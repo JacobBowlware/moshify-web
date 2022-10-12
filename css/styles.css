@@ -50,9 +50,15 @@ h3 {
     font-weight: 500;
 }
 
+.heading--primary {
+    color: var(--color-headings)
+}
+
 p {
     margin-top: 0;
 }
+
+
 
 @media screen and (min-width: 1024px) {
     body {
@@ -635,6 +641,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block--dark {
